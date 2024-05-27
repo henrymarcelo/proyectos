@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Imágenes</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            padding: 0;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .banner, .promocion, .footer {
+            height: 150px;
+        }
+        .producto1 {
+            height: 300px;
+        }
+        .producto2, .producto3, .producto4 {
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4" class="banner"><img src="ruta_a_tu_imagen/banner1.jpg" alt="BANNER_1"></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="producto1"><img src="ruta_a_tu_imagen/producto1.jpg" alt="PRODUCTO_1"></td>
+        </tr>
+        <tr>
+            <td class="producto2"><img src="ruta_a_tu_imagen/producto2.jpg" alt="PRODUCTO_2"></td>
+            <td class="producto3"><img src="ruta_a_tu_imagen/producto3.jpg" alt="PRODUCTO_3"></td>
+            <td class="producto4"><img src="ruta_a_tu_imagen/producto4.jpg" alt="PRODUCTO_4"></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="banner"><img src="ruta_a_tu_imagen/banner2.jpg" alt="BANNER_2"></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="promocion"><img src="ruta_a_tu_imagen/promocion.jpg" alt="PROMOCION"></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="footer"><img src="ruta_a_tu_imagen/footer.jpg" alt="FOOTER"></td>
+        </tr>
+    </table>
+</body>
+</html>
