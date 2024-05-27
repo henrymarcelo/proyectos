@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,11 +11,11 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
+            margin: 20;
             font-family: Arial, sans-serif;
         }
         table {
-            width: 70%;
+            width: 50%;
             border-collapse: collapse;
         }
         td {
@@ -26,16 +27,25 @@
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: auto;
         }
-        .banner, .promocion, .footer {
-            height: 150px;
+        .footer {
+            height: 190px;
+        }
+        .promocion {
+            height: 250px;
+        }
+        .banner {
+            height: 50px
+        }
+        .banner2 {
+            height: 90px
         }
         .producto1 {
             height: 300px;
         }
         .producto2, .producto3, .producto4 {
-            height: 150px;
+            height: 160px;
         }
     </style>
 </head>
@@ -53,7 +63,7 @@
             <td class="producto4"><img src="producto4.png" alt="PRODUCTO_4"></td>
         </tr>
         <tr>
-            <td colspan="4" class="banner"><img src="banner2.png" alt="BANNER_2"></td>
+            <td colspan="4" class="banner2"><img src="banner2.png" alt="BANNER_2"></td>
         </tr>
         <tr>
             <td colspan="4" class="promocion"><img src="promocion.png" alt="PROMOCION"></td>
